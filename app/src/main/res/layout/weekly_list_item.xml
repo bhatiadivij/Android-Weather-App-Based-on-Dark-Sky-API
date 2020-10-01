@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_components"
+    android:padding="8dp"
+    android:columnCount="4">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textColor="@color/white"
+        android:id="@+id/weekly_card_date"
+        android:textSize="18sp"
+        android:layout_gravity="center_vertical"
+        android:text="11/15/2019"/>
+
+    <ImageView android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/weekly_card_icon"
+        android:layout_columnWeight="1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_columnWeight="1"
+        android:id="@+id/weekly_card_min_temp"
+        android:layout_gravity="center_vertical"
+        android:textSize="18sp"
+        android:text="54"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textColor="@color/white"
+        android:id="@+id/weekly_card_max_temp"
+        android:layout_gravity="center_vertical"
+        android:textSize="18sp"
+        android:text="70"/>
+</GridLayout>

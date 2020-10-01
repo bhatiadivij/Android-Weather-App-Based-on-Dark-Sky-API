@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="csci571.hw9.DetailActivity">
+<item android:id="@+id/twitter_icon"
+    android:title="Twitter"
+    app:showAsAction="always"
+    android:icon="@drawable/twitter"
+    android:orderInCategory="100" />
+</menu>
